@@ -1,29 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-<defs>
-  <style type="text/css">
-    .st194{fill:#2D2D2D;stroke:#FFFFFF;stroke-width:0.6317;stroke-miterlimit:10;}
-    .st23{fill:#FFFFFF;}
-
-    .z-breathe {
-      animation: breathe 2.5s ease-in-out infinite;
-    }
-
-    @keyframes breathe {
-      0%, 100% { opacity: 0.7; }
-      50% { opacity: 1; }
-    }
-  </style>
-</defs>
-
-<g>
-  <path class="st194" d="M24.51,28.51H5.49c-2.21,0-4-1.79-4-4V5.49c0-2.21,1.79-4,4-4h19.03c2.21,0,4,1.79,4,4v19.03
-    C28.51,26.72,26.72,28.51,24.51,28.51z"/>
-  <g class="z-breathe">
-    <path class="st23" d="M15.47,7.1l-1.3,1.85c-0.2,0.29-0.54,0.47-0.9,0.47h-7.1V7.09C6.16,7.1,15.47,7.1,15.47,7.1z"/>
-    <polygon class="st23" points="24.3,7.1 13.14,22.91 5.7,22.91 16.86,7.1"/>
-    <path class="st23" d="M14.53,22.91l1.31-1.86c0.2-0.29,0.54-0.47,0.9-0.47h7.09v2.33H14.53z"/>
-  </g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="c"><circle cx="50" cy="50" r="50"/></clipPath>
+    <linearGradient id="sh" gradientUnits="userSpaceOnUse" x1="62" y1="30" x2="30" y2="78">
+      <stop offset="0" stop-color="#0d6878" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#0d6878" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="#3bb3c2"/>
+  <path d="M37.88 90.88L34.85 88.41L19.88 73.21L31.28 74.86L42.16 73.96L51.25 71.07L60.57 65.51L67.55 58.91L74.42 49.38L76.02 48.68L78.9 48.93L77.99 47.42L75.13 44.97L72.1 43.55L68.18 42.9L67.08 41.8L71.03 41.94L76.05 43.94L78.06 36.81L78.88 27.68L91.26 40.37L93.39 43.23L37.88 90.88ZM29.32 70.89L26.88 69.07L29.32 69.33L30.75 68.75L36.1 65.73L40.91 61.68L42.18 62.3L36.99 66.97L29.32 70.89Z" fill="url(#sh)" clip-path="url(#c)" fill-rule="evenodd"/>
+  <path d="M35.56 74.64L28.25 74.5L20.71 72.99L27.01 71.78L32.35 69.83L37.04 67.11L42.46 62.48L33.87 56.06L29.6 51.78L25.54 46.26L23.4 42.34L21.09 36.27L18.98 26.08L23.36 32.53L29.32 39.03L36.63 44.33L44.65 48.08L53.21 50.43L57.97 46.26L61.59 44.26L65.86 43.15L69.43 43.14L74.24 44.61L76.74 46.35L78.55 48.4L78.52 48.77L76.2 48.5L74.42 49.21L66.93 59.36L63.01 63.27L56.6 68.04L51.25 70.89L45.9 72.85L41.27 73.96L35.56 74.64ZM75.85 43.77L71.75 41.94L67.26 41.09L73.61 34.67L78.34 28.03L78.43 32.53L77.88 36.99L75.85 43.77ZM29.5 69.11L26.83 68.75L25.04 67.86L22.46 65.15L27.18 65.94L30.39 65.76L35.2 64.48L39.79 62.48L35.03 66.26L29.5 69.11Z" fill="#ffffff" fill-rule="evenodd"/>
 </svg>
